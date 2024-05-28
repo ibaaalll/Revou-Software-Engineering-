@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Transisi</title>
+	</head>
+    <style>
+		@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+
+		body {
+			background-color: #001111;
+			color: white;
+			font-family: "Reddit Mono", "Arial";
+		}
+
+		h1 {
+			color: yellow;
+			transition: color 0.3s ease;
+		}
+
+		h1:hover {
+			color: green;
+		}
+        p{
+            margin-left: 10px
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0px
+            }
+            to {
+                opacity: 
+            }
+        }
+        fade-in
+    </style>
+    <body>
+        <h1>Animasi menggunakan Javascript</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus metus aliquam eleifend mi in nulla posuere.
+        </p>
+        <h2 id="text-ijo">teks warna ijo</h2>
+        <h2 class="text-animasi">ini animasi</h2>
+        <button></button>
+    </body>
+    
+    <script>
+        const textIjo = document.querySelector("#text-ijo");
+
+        textIjo.classList.add("fade-in")
+        //console.log("selected element:"textIjo)//
+    </script>
